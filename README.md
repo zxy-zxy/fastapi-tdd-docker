@@ -9,3 +9,8 @@
     ```bash
     docker-compose up --build -d  
     ```
+* Run tests
+    ```bash
+    docker-compose exec web python -m pytest
+    ```  
+ 
